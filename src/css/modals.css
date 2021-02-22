@@ -1,0 +1,242 @@
+.backdrop{
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    z-index: 150;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+.modal-container{
+    display: flex;
+    flex-flow: column;
+    position: fixed;
+    width: 700px;
+    left: 50%;
+    top: 15%;
+    margin-left: -350px;
+    padding: 20px 0;
+    background-color: white;
+    z-index: 160;
+    border-radius: 5px;
+    max-height: 70%;
+    box-shadow: 0 12px 16px rgba(0,0,0,0.25), 0 6px 6px rgba(0,0,0,0.22);
+    overflow-y: auto;
+}
+.container{
+    padding-left: 0;
+}
+#modal-invite-people{
+    height: 54%;
+    top: 23%;
+}
+#modal-join-workspace{
+    height: 44%;
+    top: 28%;
+}
+.header{
+    font-size: xx-large;
+    text-align: center;
+}
+.title{
+    float: none;
+    margin: 15px auto 0;
+}
+.note{
+    width: 100%;
+    padding: 0 40px;
+    margin-top: 40px;
+    text-align: justify;
+}
+.modal-content-manual{
+    display: flex;
+    flex-flow: column;
+}
+.normal-form , .special-form{
+    display: flex;
+    flex-flow: column;
+    margin: auto;
+}
+.normal-form{
+    margin-top: 40px;
+    width: 400px;
+}
+.special-form{
+    width: 465px;
+    margin-left: calc(50% - 200px);
+    margin-bottom: 40px;
+}
+.normal-input-row{
+    display: flex;
+    flex-flow: column;
+    margin-bottom: 40px;
+}
+.normal-inputs , .special-inputs{
+    width: 400px;
+    min-height: 45px;
+    padding: 0 15px;
+    margin: 10px auto;
+    outline: none;
+}
+.label-joining{
+    text-align: center;
+    color: gray;
+}
+.label-joining:hover{
+    color: black;
+}
+.label-joining-clicked{
+    color:black;
+}
+#textarea-modal{
+    height: 45px;
+    resize: none;
+    padding: 9px 15px;
+    overflow: hidden;
+}
+#forDesInput{
+    font-size: small;
+}
+.wrapper-special-inputs{
+    display: flex;
+    flex-flow: row;
+}
+.special-email-inputs{
+    display: flex;
+    flex-flow: column;
+}
+.special-button-inputs{
+    display: flex;
+    flex-flow: column;
+}
+.special-button{
+    width: 45px;
+    height: 45px;
+    background-color: white;
+    position: relative;
+    border: 1px solid rgb(118, 118, 118);
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px;
+}
+.special-button:focus{
+    outline:none;
+}
+.make-private{
+    position: relative;
+    margin: auto;
+    width: 400px;
+    height: 120px;
+    margin-bottom: 40px;
+    text-align: justify;
+}
+.title-make-private{
+    font-size: large;
+    font-weight: bold;
+    width: 400px;
+    margin: 0;
+}
+.content-make-private{
+    line-height: 40px;
+    margin: .5rem;
+}
+.wrapper-CHB-make-private{
+    float: right;
+}
+input[type="checkbox"].CHB-make-private{
+	font-size: 20px;
+	-webkit-appearance: none;
+	   -moz-appearance: none;
+	        appearance: none;
+	width: 3.5em;
+	height: 1.5em;
+	background: #ddd;
+	border-radius: 3em;
+	position: relative;
+	cursor: pointer;
+	outline: none;
+	-webkit-transition: all .2s ease-in-out;
+	transition: all .2s ease-in-out;
+} 
+input[type="checkbox"].CHB-make-private:checked{
+	background: #0ebeff;
+}
+  
+input[type="checkbox"].CHB-make-private:after{
+	position: absolute;
+	content: "";
+	width: 1.5em;
+	height: 1.5em;
+	border-radius: 50%;
+	background: #fff;
+	-webkit-box-shadow: 0 0 .25em rgba(0,0,0,.3);
+	        box-shadow: 0 0 .25em rgba(0,0,0,.3);
+	-webkit-transform: scale(.7);
+	        transform: scale(.7);
+	left: 0;
+	-webkit-transition: all .2s ease-in-out;
+	transition: all .2s ease-in-out;
+} 
+input[type="checkbox"].CHB-make-private:checked:after{
+	left: calc(100% - 1.5em);
+}
+.final-buttons{
+    width: fit-content;
+    display: flex;
+    margin: auto;
+}
+#delimiter{
+    min-height: 60px;
+}
+@media only screen and (max-width: 600px){
+    .modal-container{
+        width: 100vw;
+        min-height: 100vh;
+        top: 0;
+        left: 0;
+        margin: 0;
+        border-radius: 0;
+        font-size: smaller;
+    }
+    #modal-join-workspace , #modal-invite-people{
+        top: 0;
+    }
+    .title-of-input{
+        width: 80vw;
+        margin: auto;
+    }
+    .normal-inputs , .title-make-private{
+        width: 80vw;
+    }
+    .normal-form , .special-form{
+        width: -webkit-fill-available;
+    }
+    .special-form{
+        margin-left: 0;
+    }
+    .wrapper-special-inputs{
+        width: fit-content;
+        margin: auto;
+    }
+    .special-inputs{
+        width: 60vw;
+        margin: auto;
+    }
+    .special-button-inputs{
+        width: 20vw;
+        align-items: flex-end;
+    }
+    .special-button{
+        margin: 10px 0;
+    }
+    #forDesInput{
+        font-size: smaller;
+        width: 80vw;
+        margin: 0 auto;
+    }
+    .make-private{
+        width: 80vw;
+    }
+    .final-buttons{
+        flex-flow: column-reverse;
+        margin-top: 20px;
+    }
+}

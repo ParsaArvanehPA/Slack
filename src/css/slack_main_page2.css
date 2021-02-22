@@ -1,0 +1,307 @@
+.left-panel {
+  min-height: 100vh;
+  background-color: rgb(63, 14, 64);
+  padding: 0;
+  width: 600px;
+}
+
+.right-panel {
+  padding: 0;
+  flex: 63.3333 1 0%;
+}
+
+.slack-main-page-container {
+  padding: 0;
+  margin: 0;
+}
+
+.slack-main-page-row {
+  margin: 0;
+}
+
+.user-info-panel {
+  width: 100%;
+  height: 60px;
+  border-bottom: 1px solid gray;/*<------added*/
+}
+
+.chat-body {
+  /* height: 80%; */
+  width: 100%;
+  position: absolute;
+}
+
+.chat-panel {
+  border-top: 1px solid gray;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  left: 16.666667%;
+  z-index:70;
+  /*height: calc(100% - (60px + 80%));*/
+}
+
+.user-info-header {
+  height: 60px;
+  color: white;
+  padding: 8px 16px;
+}
+
+#user-info-header-btn {
+  visibility: hidden;
+}
+
+.user-info-search-box {
+  background-color: rgb(92, 50, 92);
+  outline: none;
+  border: none;
+  width: 75%;
+  margin: 0 8px;
+  text-align: left;
+  border-radius: 5px;
+  height: 28px;
+  outline: none;
+}
+
+.user-info-search-box:hover {
+  cursor: pointer;
+  background-color: rgb(101, 61, 102);
+}
+
+.user-info-search-box:focus {
+  outline: none;
+}
+
+.left-panel-headers {
+  margin-top: 20px;
+  padding-left: 15px;
+}
+.blurry-text {
+  color: rgb(188, 171, 167);
+}
+
+.chanel-list {
+  margin-bottom: 0px;
+  padding: 0 25px;
+}
+.change-background-on-hover-left-panel:hover {
+  background-color: rgb(53, 13, 54);
+}
+
+.left-panel-btn {
+  background-color: transparent;
+  border: 0;
+  outline: none;
+  width: 100%;
+  text-align: left;
+  cursor: pointer;
+}
+.left-panel-add-channel-btn {
+  text-align: left;
+  width: 100%;
+  padding-left: 15px;
+  cursor: pointer;
+}
+
+.user-info-panel-left-side {
+  flex-grow: 3;
+}
+.user-info-panel-right-side {
+  flex-grow: 1;
+}
+
+.flex-container-in-user-info-panel {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+}
+
+.flex-test {
+  display: flex;
+  flex-direction: row-reverse;
+  height: 100%;
+}
+.user-info-panel-left-side {
+  padding: 8px 8px 8px 20px;
+}
+
+.user-info-panel-header {
+  outline: none;
+  border: none;
+  color: black;
+  text-decoration: solid;
+  background-color: transparent;
+  flex-grow: 1;
+}
+
+.user-info-panel-header:hover {
+  cursor: pointer;
+}
+
+.user-info-panel-header-options-section {
+  margin-left: auto;
+  margin-top: auto;
+}
+
+.user-info-panel-btn {
+  visibility: hidden;
+  padding: 0;
+}
+
+.user-info-btn {
+  margin: 5px;
+  cursor: pointer;
+  display: flex;
+  justify-content: right;
+}
+
+.user-info-search-btn {
+  background-color: transparent;
+  border-radius: 5px;
+  border: 1px gray solid;
+  flex-grow: 3;
+  height: 30px;
+  margin: auto 0 auto 0;
+  text-align: left;
+  cursor: pointer;
+  outline: none;
+}
+.user-info-search-btn:focus {
+  outline: none;
+}
+.user-info-right-panel-option-section {
+  padding-top: 15px;
+}
+
+.dialog-box-project-selector {
+  position: fixed;
+  background-color: white;
+  left: 8px;
+  width: 450px;
+  height: 510px;
+  z-index: 1;
+  border: 1px solid #ccc;
+  border-color: rgba(0, 0, 0, 0.2);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  /* z-index: 2; */
+}
+
+.flex-contaner-in-diaolog-box-project-selector {
+  display: flex;
+  flex-direction: column;
+}
+.user-info-in-dialog-box {
+  width: 288px;
+  height: 190px;
+  display: flex;
+  margin: 10px auto 0 auto;
+  flex-direction: column;
+  align-items: center;
+  border-bottom: 1px;
+}
+.user-image {
+  font-size: 80px !important;
+  color: skyblue !important;
+}
+
+.user-information-in-dialog-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.email-in-dialog-box {
+  color: #5f6368;
+}
+
+.manage-slack-account-btn {
+  width: 245px;
+  height: 34px;
+  border: 1px solid #dadce0;
+  border-radius: 100px;
+  background-color: #ffffff;
+  margin-top: 16px;
+}
+.manage-slack-account-btn:focus {
+  outline: none;
+}
+.manage-slack-account-btn:hover {
+  background-color: rgb(247, 248, 248);
+  cursor: pointer;
+}
+
+.add-new-project-div {
+  display: flex;
+  flex-direction: column;
+  margin-top: 16px;
+}
+
+.add-or-create-project-btn {
+  padding: 10px 24px;
+  border: 1px solid #dadce0;
+  border-right: none;
+  border-left: none;
+  background-color: #ffffff;
+  border-radius: 4px;
+  width: 100%;
+  /* padding-right: 80px; */
+}
+
+.add-or-create-project-btn:focus {
+  outline: none;
+}
+
+.add-or-create-project-btn:hover {
+  background-color: rgb(247, 248, 248);
+  cursor: pointer;
+}
+
+.sign-out-div {
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+
+.sign-out-btn {
+  padding: 10px 24px;
+  border: 1px solid #dadce0;
+  background-color: #ffffff;
+  border-radius: 4px;
+  margin-top: 10px;
+}
+.sign-out-btn:hover {
+  background-color: rgb(247, 248, 248);
+  cursor: pointer;
+}
+.sign-out-btn:focus {
+  outline: none;
+}
+
+.transparent-screen-wrapper {
+  background-color: transparent;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 100vh;
+  z-index: -2;
+}
+
+.panelForClickedArrow{
+  position: relative;
+  width: 100%;
+  z-index: 0;
+  overflow: hidden;
+}
+.ResizePanel-module_Container__2HTOj{
+  max-width: 400px;
+  min-width: 250px;
+}
+.ResizePanel-module_ResizeBarHorizontal__3TBZ5{
+  display: hidden ;
+}
+.ResizePanel-module_ResizeHandleHorizontal__PkS9u{
+  visibility:hidden !important;
+}

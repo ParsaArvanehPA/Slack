@@ -1,0 +1,73 @@
+{
+  "name": "slack-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@babel/plugin-transform-runtime": "^7.10.5",
+    "@fortawesome/fontawesome-svg-core": "^1.2.28",
+    "@fortawesome/free-solid-svg-icons": "^5.13.0",
+    "@fortawesome/react-fontawesome": "^0.1.9",
+    "@material-ui/core": "^4.9.9",
+    "@material-ui/icons": "^4.9.1",
+    "@material-ui/lab": "^4.0.0-alpha.56",
+    "@material/react-snackbar": "^0.15.0",
+    "@reach/router": "^1.3.3",
+    "@stepclub/react-avatar-editor": "^11.0.8",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.4.1",
+    "@testing-library/user-event": "^7.2.1",
+    "axios": "^0.19.2",
+    "bootstrap": "^4.5.0",
+    "bootstrap-icons": "^1.0.0-alpha3",
+    "emoji-mart": "^3.0.0",
+    "emoji-picker-react": "^3.1.4",
+    "font-awesome": "^4.7.0",
+    "html-react-parser": "^0.13.0",
+    "material-ui-icons": "^1.0.0-beta.36",
+    "mdbreact": "^4.25.5",
+    "mysql": "^2.18.1",
+    "prop-types": "^15.7.2",
+    "ra-data-json-server": "^3.7.2",
+    "react": "^16.13.0",
+    "react-admin": "^3.7.2",
+    "react-avatar-cropper": "^0.1.3",
+    "react-avatar-edit": "^0.8.3",
+    "react-bootstrap": "^1.3.0",
+    "react-dom": "^16.13.0",
+    "react-headroom": "^3.0.0",
+    "react-resize-panel": "^0.3.5",
+    "react-router-dom": "^5.1.2",
+    "react-rte": "^0.16.1",
+    "react-scripts": "3.4.0",
+    "react-scroll-to-bottom": "^2.0.0",
+    "react-textarea-autosize": "^7.1.2",
+    "react-tooltip": "^4.2.6",
+    "socket.io-client": "^2.3.0",
+    "styled-components": "^5.1.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "css-loader": "^3.4.2",
+    "style-loader": "^1.1.3"
+  }
+}

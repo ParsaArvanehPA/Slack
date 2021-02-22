@@ -1,0 +1,12 @@
+homepage background color = rgb( 250, 246, 251 );
+rgb( 255, 172, 220 );
+rgb( 99, 57, 145 );
+
+left panel rgb(63,14,64)
+left panel hoverd rgb(53,13,54)
+serach box rgb(92,50,92)
+
+text blury color rgb(188,171,167)
+
+1360
+1150

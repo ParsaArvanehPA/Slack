@@ -1,0 +1,122 @@
+#container_addAChannel{
+    width: 600px;
+    position: absolute;
+    z-index: 120;
+    display: flex;
+    flex-flow: column;
+    background-color: white;
+    border-radius: 5px;
+    height: 80%;
+    left: 50%;
+    margin-left: -300px;
+    top: 10%;
+    box-shadow: 0 12px 16px rgba(0,0,0,0.25), 0 6px 6px rgba(0,0,0,0.22);
+}
+.header_addAChannel{
+    display: flex;
+    flex-flow: column;
+}
+.content_addAChannel{
+    display: flex;
+    flex-flow: column;
+}
+#channelLabel{
+    margin: 30px;
+    margin-bottom: 0;
+    font-size: larger;
+    font-size: x-large;
+    text-align: center;
+}
+.attributes_addAChannel{
+    font-size: larger;
+    left: 200px;
+    position: relative;
+    margin-left: -100px;
+    margin-top: 40px;
+    margin-bottom: .5rem ;
+}
+.input_addAChannel{
+    width: 400px;
+    min-height: 45px;
+    padding: 0 15px;
+    margin: 10px;
+    margin-bottom: 2px;
+    margin-left: calc(50% - 200px);
+    outline: none;
+}
+.createChannelBTN{
+    text-align: end;
+    padding:0 80px;
+}
+#note_channel{
+    margin: 40px 40px 0;
+}
+#forDesInput{
+    left: 200px;
+    position: relative;
+    margin-left: -100px;
+    font-size: small;
+}
+#desciption_addAChannel{
+    height: 44.6667px;
+    resize: none;
+    overflow: hidden;
+    padding: 9px 15px;
+}
+.wrapper_checkbox{
+    position: relative;
+    margin: auto;
+    width: 500px;
+    margin-top: 40px;
+}
+
+input[type="checkbox"].public_private_checkbox{
+	font-size: 20px;
+	-webkit-appearance: none;
+	   -moz-appearance: none;
+	        appearance: none;
+	width: 3.5em;
+	height: 1.5em;
+	background: #ddd;
+	border-radius: 3em;
+	position: relative;
+	cursor: pointer;
+	outline: none;
+	-webkit-transition: all .2s ease-in-out;
+	transition: all .2s ease-in-out;
+  }
+  
+  input[type="checkbox"].public_private_checkbox:checked{
+	background: #0ebeff;
+  }
+  
+  input[type="checkbox"].public_private_checkbox:after{
+	position: absolute;
+	content: "";
+	width: 1.5em;
+	height: 1.5em;
+	border-radius: 50%;
+	background: #fff;
+	-webkit-box-shadow: 0 0 .25em rgba(0,0,0,.3);
+	        box-shadow: 0 0 .25em rgba(0,0,0,.3);
+	-webkit-transform: scale(.7);
+	        transform: scale(.7);
+	left: 0;
+	-webkit-transition: all .2s ease-in-out;
+	transition: all .2s ease-in-out;
+  }
+  
+  input[type="checkbox"].public_private_checkbox:checked:after{
+	left: calc(100% - 1.5em);
+  }
+  #private{
+    font-size: large;
+    font-weight: bold;
+    width: 200px;
+  }
+  #checkbox{
+    float: right;
+  }
+  #des_private{
+    width: 390px;
+  }

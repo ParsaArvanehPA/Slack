@@ -1,0 +1,135 @@
+.contain {
+  width: 100%;
+  position: relative;
+  display: flex;
+  padding: 0;
+  top: 20px;
+  z-index: 60;
+}
+.posted {
+  position: relative;
+  word-break: break-word;
+  padding: 50px 20% 50px 100px;
+  width: 100%;
+  border-top: 1px solid gray;
+  white-space: pre-wrap;
+  z-index: 60;
+  cursor: default;
+}
+.posted:hover {
+  background-color: rgba(200, 200, 200, 0.2);
+}
+.pictureOfTransmitter {
+  position: relative;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background-color: crimson;
+  display: inline-block;
+  margin: 0;
+  left: 0;
+  bottom: 0;
+}
+#date {
+  width: 140px;
+  height: 30px;
+  background-color: white;
+  text-align: center;
+  vertical-align: middle;
+  border: 1px solid gray;
+  border-radius: 30px;
+  position: absolute;
+  top: -15px;
+  left: 50%;
+  margin-left: -70px;
+  z-index: 70;
+  user-select: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+}
+#time {
+  width: 60px;
+  height: 30px;
+  text-align: center;
+  position: relative;
+  top: 10px;
+  left: 15px;
+  z-index: 70;
+  user-select: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+}
+.modify {
+  background-color: white;
+  position: absolute;
+  right: 10px;
+  top: 2px;
+  width: 140px;
+  height: 35px;
+  display: flex;
+  flex-flow: row;
+  border: 1px solid rgb(177, 176, 176);
+  border-radius: 5px;
+  z-index: 70;
+}
+.options {
+  width: 30px;
+  text-align: center;
+  margin: 2px;
+  border-radius: 5px;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+}
+.options:hover {
+  background-color: rgba(240, 235, 235, 0.8);
+}
+.pic_prof {
+  background-color: rgb(119, 7, 82);
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  border: 1px solid gray;
+  /* border-radius: 5px; */
+  border-radius: 100%;
+  top: 20px;
+  left: 20px;
+  text-align: center;
+  z-index: 70;
+  border: none;
+}
+.pic_prof:hover {
+  cursor: pointer;
+}
+.pic_prof img {
+  width: 100%;
+  height: 100%;
+}
+.name_prof {
+  max-width: 300px;
+  position: relative;
+  top: 10px;
+  left: 8%;
+  font-weight: 500;
+  z-index: 70;
+}
+.name_prof:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+#nameAndTime {
+  position: absolute;
+  left: 70px;
+  display: flex;
+  top: 10px;
+}
+
+.filled-circle {
+  background-color: transparent !important;
+}

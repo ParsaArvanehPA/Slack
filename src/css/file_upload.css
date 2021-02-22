@@ -1,0 +1,60 @@
+/* /////////////////////////////////////////////
+/////////////////////////////////////////////
+///////////////////////////////////////////// */
+
+.mainWrapperFileUploader {
+  width: 80%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  align-items: center;
+}
+
+.mainWrapperFileUploader h4 {
+  margin: 30px 0 30px 0;
+  margin-top: 100px;
+}
+
+.fileUploadSection {
+  display: flex;
+  width: 80%;
+  justify-content: center;
+  margin-top: 30px;
+}
+.fileUploadCta {
+  display: none;
+}
+
+.browseCta {
+  background-color: lightgray;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.fileNameSection {
+  height: 43px;
+  flex: 1;
+  margin-right: 10px;
+  border-radius: 5px;
+  border: 1px solid lightgray;
+  color: mediumslateblue;
+  padding-left: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.react-logo {
+  color: mediumslateblue;
+  height: 50px;
+}
+
+.sendCta {
+  width: 80%;
+  background-color: mediumslateblue;
+  height: 45px;
+  color: white;
+  margin-top: 30px;
+  border: none;
+  border-radius: 5px;
+}

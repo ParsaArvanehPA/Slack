@@ -1,0 +1,95 @@
+.bodyDiv {
+  width: 100%;
+  min-height: 100vh;
+  background: linear-gradient(-135deg, #c850c0, #4158d0);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  font-family: "Times New Roman", serif;
+}
+
+.loginWrapper {
+  width: 960px;
+  min-height: 70vh;
+  background-color: white;
+  border-radius: 10px;
+}
+#logo-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  padding-top: 10px;
+}
+.input {
+  width: 70%;
+  font-family: Poppins-Medium;
+  font-size: 15px;
+  line-height: 1.5;
+  color: #666666;
+  display: block;
+  background: #e6e6e6;
+  height: 50px;
+  border-radius: 25px;
+  padding: 0 30px 0 50px;
+  border: none;
+  outline: none;
+}
+.input:focus {
+  animation: box-shadow-animation 0.5s ease-in-out forwards;
+}
+@keyframes box-shadow-animation {
+  from {
+    box-shadow: 0 0 70px 25px rgb(87, 184, 70);
+    opacity: 0;
+  }
+  to {
+    box-shadow: 0 0 20px 1px rgb(87, 184, 70);
+  }
+}
+
+#login-btn {
+  font-size: 15px;
+  line-height: 1.5;
+  color: #fff;
+  text-transform: uppercase;
+  width: 70%;
+  height: 50px;
+  border-radius: 25px;
+  background: #57b846;
+  text-align: center;
+  padding: 0;
+  outline: none;
+  animation: none !important;
+  border: none;
+}
+
+#login-badge {
+  font-size: 24px;
+  display: block;
+  width: 70%;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+#login-btn:hover {
+  background: rgb(51, 51, 51);
+  transition: 0.5s linear;
+}
+
+#create-account-txt {
+  padding-top: 10px;
+  display: block;
+  width: 70%;
+  text-align: center;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #666666;
+  text-decoration: none;
+}
+
+#create-account-txt:hover {
+  color: #57b846;
+  transition: 0.2s linear;
+}

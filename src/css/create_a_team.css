@@ -1,0 +1,121 @@
+#backdrop_typesOfSignIN{
+    position: fixed;
+    width: 100%;
+    min-height: 100%;
+    z-index: 150;
+    left:0;
+    top:0;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+#creatingTeamModal{
+    display: flex;
+    flex-flow: column;
+    position: fixed;
+    width: 700px;
+    z-index: 160;
+    background-color: white;
+    border-radius: 5px;
+    max-height: 70%;
+    box-shadow: 0 12px 16px rgba(0,0,0,0.25), 0 6px 6px rgba(0,0,0,0.22);
+    left: 50%;
+    top: 15%;
+    margin-left: -350px;
+    padding: 20px;
+    overflow-y: auto;
+}
+#BTNs{
+    display: flex;
+    position: relative;
+    padding: auto;
+    margin: 20px auto;
+    width: fit-content;
+}
+.label_creating_team{
+    margin-top: 20px;
+    text-indent: 12px;
+    padding-left: calc(50% - 200px);
+}
+#name_team , .email_teammates , #description_team{
+    width: 400px;
+    min-height: 45px;
+    padding: 0 15px;
+    margin: 10px auto;   
+    outline: none;
+}
+.BTN_emails{
+    width: 45px;
+    background-color: white;
+    height: 45px;
+    position: relative;
+    border: 1px solid rgb(118, 118, 118);
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px;
+}
+.BTN_emails:focus{
+    outline:none;
+}
+.wrapper_emails_createTeam{
+    width: min-content;
+    display: flex;
+    margin-left: calc( 50% - 200px);
+}
+.wrapper_checkbox_createTeam{
+    position: relative;
+    margin: auto;
+    width: 400px;
+    height: 120px;
+    margin-top: 40px;
+}
+input[type="checkbox"].public_private_checkbox_createTeam{
+	font-size: 20px;
+	-webkit-appearance: none;
+	   -moz-appearance: none;
+	        appearance: none;
+	width: 3.5em;
+	height: 1.5em;
+	background: #ddd;
+	border-radius: 3em;
+	position: relative;
+	cursor: pointer;
+	outline: none;
+	-webkit-transition: all .2s ease-in-out;
+	transition: all .2s ease-in-out;
+  }
+  
+  input[type="checkbox"].public_private_checkbox_createTeam:checked{
+	background: #0ebeff;
+  }
+  
+  input[type="checkbox"].public_private_checkbox_createTeam:after{
+	position: absolute;
+	content: "";
+	width: 1.5em;
+	height: 1.5em;
+	border-radius: 50%;
+	background: #fff;
+	-webkit-box-shadow: 0 0 .25em rgba(0,0,0,.3);
+	        box-shadow: 0 0 .25em rgba(0,0,0,.3);
+	-webkit-transform: scale(.7);
+	        transform: scale(.7);
+	left: 0;
+	-webkit-transition: all .2s ease-in-out;
+	transition: all .2s ease-in-out;
+  }
+  
+  input[type="checkbox"].public_private_checkbox_createTeam:checked:after{
+	left: calc(100% - 1.5em);
+  }
+  #private_createTeam{
+    font-size: large;
+    font-weight: bold;
+    width: 200px;
+  }
+  #checkbox_createTeam{
+    margin-top: -40px;
+    float: right;
+  }
+  #des_private_createTeam{
+    line-height: 40px;
+    margin: .5rem;
+  }

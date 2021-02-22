@@ -1,0 +1,25 @@
+#send{
+width: 35px;
+cursor: pointer;
+}
+.BTNs{
+    display: inline-block;
+    width: 200px;
+    height: 70px;
+    font-size: larger;
+    border: 0;
+    border-radius: 15px;
+    color: white;
+    cursor: pointer;
+    margin: 20px 15px;
+    align-items: center;
+}
+.BTNs:focus{
+    outline:none;
+}
+#purple{
+    background-color: #764ba2;
+}
+#blue{
+    background-color: #667eea;
+}

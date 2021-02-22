@@ -1,0 +1,332 @@
+* button:focus {
+  outline: none;
+}
+
+.slack-main-page {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+}
+
+.slack-left-panel {
+  width: 260px;
+  background-color: #3f0e40;
+  color: white;
+}
+
+.slack-right-panel {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.project-info-panel {
+  width: 100%;
+  height: 65px;
+}
+
+#project-info-panel-cta {
+  display: none;
+}
+
+#project-info-panel-cta-label {
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  border-bottom: 1px solid rgba(250, 250, 250, 0.1);
+  padding: 10px;
+}
+
+.left-panel-hover:hover {
+  background-color: rgb(53, 13, 54);
+}
+
+#user-name-user-info-panel {
+  font-size: 12px;
+  padding-left: 10px;
+}
+
+.channel-list-header {
+  display: flex;
+  padding: 10px;
+  padding-left: 20px;
+  justify-content: center;
+  align-items: center;
+}
+.channel-list-header p {
+  flex: 1;
+}
+.channel-list-header button {
+  width: 20px;
+  height: 20px;
+}
+
+#add-icon-cta {
+  cursor: pointer;
+  border-radius: 3px;
+  margin-right: 5px;
+}
+#add-icon-cta:hover {
+  background-color: rgb(83, 39, 83);
+}
+
+.channel-list-body {
+  display: flex;
+  flex-direction: column;
+}
+
+.channel-list-body button {
+  height: 30px;
+  background-color: transparent;
+  border: none;
+  color: rgb(188, 1 1, 188);
+  text-align: left;
+  padding-left: 30px;
+  font-size: 15px;
+}
+
+.channel-list-body button:focus {
+  outline: none;
+}
+
+.direct-chat-header {
+  display: flex;
+  padding: 10px;
+  padding-left: 20px;
+}
+
+.direct-chat-header p {
+  flex: 1;
+}
+
+.direct-chat-body-iteam {
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+}
+
+.direct-chat-body-iteam button {
+  border: none;
+  background-color: transparent;
+  color: rgb(188, 171, 188);
+  padding-left: 5px;
+  font-size: 15px;
+}
+.direct-chat-body-iteam button:focus {
+  outline: none;
+}
+
+.online-status-circle {
+  width: 14px !important;
+  height: 14px !important;
+  color: green;
+  transform: scale(1.1);
+}
+
+.direct-chat-wrapper-label {
+  width: 100%;
+  height: 30px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  margin: 0;
+}
+
+.slack-right-panel-header {
+  width: 100%;
+  height: 65px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  padding: 0 10px 0 10px;
+  font-size: 14px;
+}
+
+.slack-right-panel-header p {
+  flex: 1;
+}
+
+#details-cta {
+  display: none;
+}
+
+#details-icon {
+  width: 20px;
+}
+
+#details-cta-label {
+  display: flex;
+  cursor: pointer;
+  padding: 8px;
+  margin: 0;
+  align-items: center;
+}
+
+#details-cta-label p {
+  padding-left: 5px;
+}
+
+.right-panel-hover-effect:hover {
+  background-color: rgb(246, 246, 246);
+}
+
+.chat-body {
+  position: relative;
+  height: 100%;
+}
+
+.chat-panel {
+  position: relative !important;
+  left: 0;
+  top: 0;
+  z-index: 0;
+}
+
+.channel-list-cta {
+  width: 100%;
+  color: rgb(188, 171, 188);
+}
+
+.profile-section {
+  position: absolute;
+  left: 20px;
+  top: 65px;
+  width: 300px;
+  height: 510px;
+  z-index: 5;
+  background-color: rgb(248, 248, 248);
+  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  font-size: 12px;
+  z-index: 10;
+}
+
+.profile-section img {
+  width: 35px;
+  height: 35px;
+  border-radius: 3px;
+}
+
+.user-info-section {
+  display: flex;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 16px 20px 16px 20px;
+}
+
+.user-info-section-info-part p {
+  font-size: 12px;
+}
+
+.user-online-status {
+  display: flex;
+  align-items: center;
+}
+
+.user-status-panel {
+  padding-left: 10px;
+}
+#user-status-panel-user-name {
+  font-size: 14px;
+}
+
+.online-status-cta {
+  background-color: transparent;
+  border: none;
+  color: #1264a3;
+  font-size: 12px;
+  padding-left: 10px;
+}
+.online-status-cta:hover {
+  text-decoration: underline;
+}
+
+.view-profile-section {
+  width: 100%;
+  margin: 10px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.view-profile-cta {
+  border: none;
+  text-align: left;
+  background-color: transparent;
+  /* padding-left: 16px; */
+  /* margin-top: 10px; */
+  padding: 10px 0 10px 24px;
+  color: #1d1c1d;
+  height: 38px;
+  margin: 10px 0;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+}
+.view-profile-cta:hover {
+  background-color: #1264a3;
+  color: white;
+}
+
+.project-info-section {
+  padding: 16px 20px 16px 20px;
+  display: flex;
+}
+
+.project-info-section-info-part {
+  padding-left: 10px;
+}
+
+.project-info-section-info-part button {
+  background-color: transparent;
+  border: none;
+  color: #1264a3;
+}
+.project-info-section-info-part button:hover {
+  text-decoration: underline;
+}
+
+.project-info-cta {
+  width: 100%;
+  text-align: left;
+  border: none;
+  background-color: transparent;
+  font-size: 14px;
+  padding-left: 24px;
+  height: 38px;
+}
+.project-info-cta:hover {
+  background-color: #1264a3;
+  color: white;
+}
+
+#sign-out-cta:hover {
+  background-color: #b33a3a !important;
+}
+
+.disply-none {
+  display: none;
+}
+
+.middleman {
+  width: 100%;
+  height: 100vh;
+  background-color: transparent;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.state1 {
+  z-index: -9;
+}
+.state2 {
+  z-index: 9;
+}
+.right-panel-body {
+  z-index: 0;
+}
+.right-panel-footer{
+  overflow:hidden;
+}

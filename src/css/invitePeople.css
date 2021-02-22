@@ -1,0 +1,59 @@
+#container_invitePeople{
+    width: 600px;
+    display: flex;
+    flex-flow: column;
+    z-index: 120;
+    position: fixed;
+    background-color: white;
+    left: 50%;
+    margin-left: -300px;
+    top: 15%;
+    border-radius: 5px;
+    height: 65%;
+    box-shadow: 0 12px 16px rgba(0,0,0,0.25), 0 6px 6px rgba(0,0,0,0.22);
+}
+.content_invitePeople{
+    display: flex;
+    flex-flow: column;
+    margin: auto;
+}
+#label_invitePeople{
+    text-align: center;
+    margin: 30px;
+    font-size: larger;
+}
+.email_people{
+    width: 400px;
+    min-height: 45px;
+    padding: 0 15px;
+    margin: 10px;
+    outline: none;
+}
+.BTN_emails{
+    width: 45px;
+    background-color: white;
+    height: 45px;
+    position: relative;
+    border: 1px solid rgb(118, 118, 118);
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px;
+}
+.BTN_emails:focus{
+    outline:none;
+}
+.sendEmailBTN{
+    text-align: end;
+    padding:0 60px;
+}
+.note_invite{
+    padding: 60px 40px 20px;
+}
+#send_invitation{
+    display: contents;
+}
+.wrapper_emails_invitePeople{
+    width: 490px;
+    margin: 0 auto;
+    display: flex;
+}

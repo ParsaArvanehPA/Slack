@@ -1,0 +1,108 @@
+#backdrop{
+    position: fixed;
+    width: 100%;
+    min-height: 100%;
+    z-index: 100;
+    left:0;
+    top:0;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+#popup{
+    position: fixed;
+    display: flex;
+    flex-flow: column;
+    width: 500px;
+    z-index: 110;
+    background-color: white;
+    border-radius: 5px;
+    left: 50%;
+    margin-left: -250px;
+    top: 10%;
+    max-height: 70%;
+    box-shadow: 0 12px 16px rgba(0,0,0,0.25), 0 6px 6px rgba(0,0,0,0.22);
+}
+#cross{
+    position: absolute;
+    cursor: pointer;
+    width: 20px;
+    right: 10px;
+    top:10px;
+    filter:invert(70%);
+    clear: both;
+}
+#cross:hover{
+    filter:grayscale(1);
+}
+.memberInMainList{
+    color: black;
+    padding: 8px 30px 8px 70px;
+    width: 100%;
+    margin: 0;
+    user-select: none;
+   -webkit-user-select: none;
+   -khtml-user-select: none;
+   -moz-user-select: none;
+   -ms-user-select: none;
+}
+.memberInMainList:hover{
+    background-color: rgba(110, 110, 110, 0.1);
+    cursor: pointer;
+}
+.headerOfList{
+    position: sticky;
+    top: 0;
+    min-height: 80px;
+    display: flex;
+    flex-flow: wrap;
+    background-color: white;
+    padding: 15px;
+    z-index: 150;
+    box-shadow: 0 15px 15px -20px #333;
+}
+#peopleLabel{
+    position: relative;
+    font-size: larger;
+    margin: auto 30px;
+    text-shadow: 1px 1px 2px grey;
+    user-select: none;
+   -webkit-user-select: none;
+   -khtml-user-select: none;
+   -moz-user-select: none;
+   -ms-user-select: none;
+}
+#mainList{
+    padding: 1rem 20px;
+    padding-top: 0;
+    list-style: none;
+}
+.sep_mainList{
+    margin-top: 0;
+    margin-bottom: 0;
+    width: 85%;
+    float: right;
+}
+.addMember{
+    cursor: pointer;
+    padding: 20px;
+    padding-left: 40px;
+    margin: 0 20px;
+    color: rgb(105, 60,130); 
+}
+.addMember:hover{
+    background-color: rgba(200, 160, 200, 0.2);
+    font-weight: bold;
+}
+.cancel{
+    text-align: right;
+}
+.cancel:hover{
+    background-color: white;
+}
+#hrTag_addMemberBTN{
+    margin: 0 20px;
+}
+.checkForAddMember{
+    transform: scale(2);
+    left: calc(100% - 220px);
+    position: relative;
+}

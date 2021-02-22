@@ -1,0 +1,132 @@
+.more_panel{
+    padding: 0;   
+    min-height: 100%;
+    border-left: 1px solid rgba(204, 201, 201, 0.562);
+    padding-top: 40px;
+}
+.moreItems{
+    position: relative;
+    color: rgb(63, 14, 64);
+    margin: 0 auto;
+    cursor: pointer;
+    padding-left: 30px;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+#contain_details{
+    display: inline;
+}
+.arrow_icon{
+    filter:invert(70%);
+    float: right;
+    transition: all .1s linear;
+}
+.more_members{
+    padding: 1% 0 4% 0;
+    margin: 5% 10% 5% 0;
+    color:rgb(82, 20, 83);
+    border-left: 3px solid rgb(82, 20, 83);
+    font-size: smaller;
+    word-break: break-word;
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    hyphens: auto;
+}
+.more{
+    padding: 10px;
+    margin: 5% 10% 5% 0;
+    color:rgb(82, 20, 83);
+    border-left: 3px solid rgb(82, 20, 83);
+    font-size: smaller;
+    word-break: break-word;
+    -webkit-hyphens: auto;
+}
+ul{
+    padding-left: 0;
+}
+#header_morePanel{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+#cross{
+    position: absolute;
+    cursor: pointer;
+    width: 20px;
+    right: 10px;
+    top:10px;
+    filter:invert(70%);
+    clear: both;
+}
+#cross:hover{
+    filter:grayscale(1);
+}
+hr{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+#nameOfChannel{
+    margin-top:-30px;
+    margin-left:15px;
+    font-weight:bold;
+    font-size: large;
+    padding-top: 5%;
+}
+.picture_profile{
+    position: relative;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: rgba(73, 247, 218, 0.568);
+    display: inline-block;
+    margin: 0 7% 0 0;
+    vertical-align: middle;
+    left: 0;
+    bottom: 0;
+    box-shadow: 0 0 3px 1px grey;
+}
+.name_profile{
+    vertical-align: middle;
+    font-size: medium;
+    overflow: hidden;
+    width: 100px;
+    display: -webkit-inline-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    color:rgb(52, 22, 53);
+}
+#see_all{
+    float: left;
+    font-size: large;
+    display: block;
+    color: rgb(82, 20, 83);
+    margin: 5px 15px;
+}
+#see_all:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    color: rgba(37, 7, 37, 0.979);
+}
+.items{
+    padding-top: 40px;
+}
+.iconInMorePanel{
+    margin-right: 15px;
+    margin-left: -10px;
+}
+.member{
+    width: 100%;
+    margin-left: 0;
+    margin: 0;
+    padding: 5px 0 5px 1rem;
+}
+.member:hover{
+    background-color: rgba(110, 110, 110, 0.1);
+}
+#see_all_LI{
+    list-style: none;
+    margin-bottom: 25px;
+}

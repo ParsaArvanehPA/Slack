@@ -1,0 +1,136 @@
+.chat_panel {
+  width: 100%;
+  min-height: 100%;
+  background-color: white;
+  display: flex;
+  flex-flow: column;
+  padding: 10px 0;
+  z-index: 10;
+}
+.container-for-chat-panel {
+  display: flex;
+  height: 40px;
+  position: relative;
+  z-index: 10;
+  width:100%;
+  padding:0 10px;
+  top:5px;
+}
+.attachment {
+    z-index: 30;
+    position: relative;
+}
+.textHolder {
+  width: 100%;
+  z-index: 20;
+}
+.RichTextEditor__root___2QXK- {
+  position: absolute;
+  bottom: 0;
+  right: 10px;
+  padding: 0 125px 0 10px;
+  border: 1px solid #555555 !important;
+  border-radius: 6px !important;
+  flex-direction: row;
+  flex-wrap: wrap;
+  outline: none;
+  resize: none;
+  word-break: break-word;
+  z-index: 30;
+  line-height: 23px;
+  left: 60px;
+}
+.EditorToolbar__root___3_Aqz{
+  position: absolute;
+  bottom: -60px;
+}
+.BTNs_formating{
+  /* border:0 !important; */
+  border-left-width: 1px !important;
+  border-radius: 5px !important;
+  margin: .5rem !important;
+  padding: 5px !important;
+  width: 35px;
+  height: 35px !important;
+  background: white !important;
+}
+.divEmoji {
+  width: 40px;
+  position: absolute;
+  right: 65px;
+  z-index: 40;
+  text-align: center;
+}
+.BTN-send {
+  width: 40px;
+  position: absolute;
+  right: 20px;
+  z-index: 40;
+  filter: grayscale(1);
+}
+.BTN-send:hover {
+  filter: none;
+}
+#attachment {
+  position: relative;
+  width: 40px;
+  cursor: pointer;
+  filter: grayscale(1);
+}
+#attachment:hover {
+  filter: none;
+}
+#imgForEmoji {
+  width: 26px;
+  cursor: pointer;
+  filter: grayscale(1);
+  position: relative;
+  top: 4px;
+}
+#imgForEmoji:hover {
+  filter: none;
+}
+.emj {
+  position: fixed;
+  right: 0;
+}
+.emoji{
+  margin:0;
+}
+.scrollbar::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+.scrollbar::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  background: rgba(0, 0, 0, 0.2);
+}
+.scrollbar-primary::-webkit-scrollbar {
+  background-color: #f5f5f5;
+}
+.scrollbar-primary {
+  scrollbar-color: #4285f4 #f5f5f5;
+}
+.scrollbar-primary::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-color: #4285f4;
+}
+.emoji-picker-react ul.skin-tones-list{
+  top:0 !important;
+  right: 50px !important;
+}
+#toolsBTN{
+  width: fit-content;
+  height: fit-content;
+  z-index: 40;
+  position: relative;
+  right: 105px;
+  font-size: x-large;
+  cursor: pointer;
+  text-align: center;
+  bottom: 1px;
+  filter: invert(.4);
+}
+#toolsBTN:hover{
+  filter: invert(0);
+}
